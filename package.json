@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"This is the testing of Git and Node\"",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pcr1216/git-test.git"
+  },
+  "author": "Pranesh Kamble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pcr1216/git-test/issues"
+  },
+  "homepage": "https://github.com/Pcr1216/git-test#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
